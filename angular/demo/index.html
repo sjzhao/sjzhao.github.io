@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head lang="en-US">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../bower_components/foundation/test/stylesheets/foundation.css">
+    <link rel="stylesheet" href="../bower_components/foundation/test/stylesheets/normalize.css">
+    <title>angular test</title>
+  </head>
+
+  <body ng-controller="CartController">
+    <h1>YOUR ORDER</h1>
+    Search: <input ng-model="search">
+    <div class="animate-repeat" ng-repeat="item in items | filter:search">
+      <span>{{ item.title }}</span>
+      <input ng-model="item.quantity" />
+      <span>{{ item.price | currency }}</span>
+      <span>{{ item.price * item.quantity | currency }}</span>
+      <button ng-click="remove($index)">Remove</button>
+    </div>
+
+
+
+    <!--div ng-controller="HelloController">
+
+      <input ng-model="greeting.text">
+      <p>{{ greeting.text }}, world</p>
+      <div class="{{ greeting.text }}">
+        This is a test of {{ greeting.text }}
+      </div>
+
+    </div-->
+    <!-- In production use:
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+    -->
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+  </body>
+</html>
