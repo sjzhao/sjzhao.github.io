@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 <head lang="en-US">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="../bower_components/foundation/test/stylesheets/foundation.css">
-	<link rel="stylesheet" href="../bower_components/foundation/test/stylesheets/normalize.css">
+	<!--link rel="stylesheet" href="../bower_components/foundation/test/stylesheets/foundation.css">
+	<link rel="stylesheet" href="../bower_components/foundation/test/stylesheets/normalize.css"-->
+	<link rel="stylesheet" href="./css/demo.css">
+	<script type="text/javascript" src="../bower_components/iscroll-4/src/iscroll.js"></script>
 	<title>angular test</title>
 </head>
 
-<body ng-controller="CartController">
-<h1>YOUR ORDER</h1>
-Search: <input ng-model="search">
+<body>
+<div id="header">Z<span class='green'>in</span>ch</div>
 
-<div class="animate-repeat" ng-repeat="item in items | filter:search">
+<div ng-app="zinchapp">
+	<div ng-controller="scroll">
+		<div id="wrapper" ng-iscroll='wrapper' ng-iscroll-delay='50'>
+			<div id="scroller">
+				<ul ng-repeat="school in schools">
+					<li id="school-chinese-name" ng-bind="school.chinese_name"></li>
+					<li id="school-name" ng-bind="school.name"></li>
+					<li id="school-location" ng-bind="school.location"></li>
+					<li id="school-hot-major" ng-bind="school.hot"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer"></div>
+
+<!--div class="animate-repeat" ng-repeat="item in items | filter:search">
 	<span ng-bind="item.title"></span>
 	<input ng-model="item.quantity"/>
 	<span ng-bind="item.price | currency"></span>
 	<span ng-bind="item.price * item.quantity | currency"></span>
 	<button ng-click="remove($index)">Remove</button>
-</div>
+</div-->
 
 
 <!--div ng-controller="HelloController">
@@ -33,6 +50,7 @@ Search: <input ng-model="search">
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
 -->
 <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="../bower_components/ng-iscroll/dist/ng-iscroll.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 
 
