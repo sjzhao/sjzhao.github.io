@@ -20,10 +20,10 @@ webapp.controller('scroll', function ($scope) {
 
 	var schools = [];
 	var schoolitem = {
-		chinese_name: '普林斯顿大学',
-		name: 'Princeton University',
-		location: 'Princeton, New Jersey',
-		hot: '计算机, 工程'
+		chinese_name: '哈佛大学',
+		name: 'Princeto University',
+		location: 'Princeto, New Jersey',
+		hot: '计算机, 工程, 艺术'
 	}
 
 	for (var i = 1; i <= 50; i++) {

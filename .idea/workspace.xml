@@ -12,6 +12,8 @@
     <file path="/a.css" changelist="9f4e11d2-b692-4975-aed6-f003133d5b09" time="1381468293246" ignored="false" />
     <file path="/demo.htm" changelist="9f4e11d2-b692-4975-aed6-f003133d5b09" time="1381740735944" ignored="false" />
     <file path="/demo.css" changelist="9f4e11d2-b692-4975-aed6-f003133d5b09" time="1381742844937" ignored="false" />
+    <file path="$PROJECT_DIR$/angular/bower_components/foundation/test/stylesheets/foundation.css" changelist="9f4e11d2-b692-4975-aed6-f003133d5b09" time="1381743578859" ignored="false" />
+    <file path="$PROJECT_DIR$/angular/bower_components/foundation/test/stylesheets/normalize.css" changelist="9f4e11d2-b692-4975-aed6-f003133d5b09" time="1381743578859" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="545" selection-end="545" vertical-scroll-proportion="0.58317757">
+            <state line="51" column="41" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-22.137932">
               <folding />
             </state>
           </provider>
@@ -49,13 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular/demo/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="25" column="21" selection-start="659" selection-end="659" vertical-scroll-proportion="0.45614034">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +63,7 @@
       <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="38" selection-start="0" selection-end="1950" vertical-scroll-proportion="0.0">
+            <state line="51" column="38" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +72,7 @@
       <file leaf-file-name="demo.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="444" selection-end="444" vertical-scroll-proportion="-4.551724">
+            <state line="7" column="35" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +90,7 @@
       <file leaf-file-name="demo_multiple_iscrolls.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo_multiple_iscrolls.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="375" selection-end="375" vertical-scroll-proportion="-5.37931">
+            <state line="6" column="54" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,16 +107,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/angular/demo/ng-iscroll/demo.htm" />
-        <option value="$PROJECT_DIR$/angular/demo/js/app.js" />
-        <option value="$PROJECT_DIR$/angular/demo/index.html" />
         <option value="$PROJECT_DIR$/angular/demo/css/demo.css" />
+        <option value="$PROJECT_DIR$/angular/demo/index.html" />
+        <option value="$PROJECT_DIR$/angular/demo/js/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="711" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -336,13 +336,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../webapp.zinch.cn" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
@@ -362,13 +362,6 @@
       <option name="testName" />
       <method />
     </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -378,6 +371,13 @@
       <module name="" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
@@ -426,14 +426,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="711" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="717" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21797931" sideWeight="0.70826304" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29173693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16388226" sideWeight="0.70951587" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29048413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -508,6 +508,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo_multiple_iscrolls.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/angular/demo/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -523,9 +530,7 @@
     <entry file="file://$PROJECT_DIR$/angular/demo/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,19 +551,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo_multiple_iscrolls.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="375" selection-end="375" vertical-scroll-proportion="-5.37931">
+        <state line="6" column="54" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/bower_components/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="11" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377290391000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1377290391000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="129" column="11" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/app.js">
@@ -568,44 +568,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/bower_components/iscroll/dist/iscroll-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/bower_components/ng-iscroll/dist/ng-iscroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="91" selection-start="3110" selection-end="3124" vertical-scroll-proportion="0.4246824">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="81" column="91" selection-start="3110" selection-end="3124" vertical-scroll-proportion="0.4246824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="444" selection-end="444" vertical-scroll-proportion="-4.551724">
+        <state line="7" column="35" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="38" selection-start="0" selection-end="1950" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/demo/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,9 +587,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular/demo/ng-iscroll/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/angular/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="545" selection-end="545" vertical-scroll-proportion="0.58317757">
+        <state line="51" column="41" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-22.137932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/demo/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="659" selection-end="659" vertical-scroll-proportion="0.45614034">
           <folding />
         </state>
       </provider>
