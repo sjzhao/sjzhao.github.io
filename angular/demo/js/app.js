@@ -14,9 +14,9 @@
 //    $scope.items.splice(index, 1);
 //  }
 //}
-var webapp = angular.module('zinchapp', ['ng-iscroll']);
+var webapp = angular.module('zinchapp', ['ng-iscroll', 'infinite-scroll']);
 
-webapp.controller('scroll', function ($scope) {
+webapp.controller('scroll', ['$scope', function ($scope) {
 
 	var schools = [];
 	var schoolitem = {
@@ -26,11 +26,17 @@ webapp.controller('scroll', function ($scope) {
 		hot: '计算机, 工程, 艺术'
 	}
 
-	for (var i = 1; i <= 50; i++) {
+	for (var i = 1; i <= 2; i++) {
 		schools[i] = schoolitem;
 	}
 
 	$scope.schools = schools;
+
+	$scope.loadMore = function () {
+		for (var i=1; i<=2; i++) {
+ 			$scope.schools.push(schoolitem);
+		}
+	}
 
 //	$scope.$parent.myScrollOptions = {
 //		snap: false,
@@ -40,4 +46,4 @@ webapp.controller('scroll', function ($scope) {
 //		}
 //	};
 
-});
+}]);
